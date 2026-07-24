@@ -144,7 +144,10 @@ export default function MaterialsClient({
       );
       const newVoted = new Set(votedIds).add(material.id);
       setVotedIds(newVoted);
-      localStorage.setItem("studyly_voted", JSON.stringify([...newVoted]));
+      localStorage.setItem(   
+        "studyly_voted",
+        JSON.stringify(Array.from(newVoted))
+      );
     }
   }
 
