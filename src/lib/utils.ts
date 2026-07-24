@@ -37,19 +37,11 @@ export const MATERIAL_TYPE_STYLES: Record<MaterialType, string> = {
 };
 
 export const BRANCHES = [
-  "Computer Science",
-  "Information Science",
-  "Electronics & Communication",
-  "Electrical Engineering",
-  "Mechanical Engineering",
-  "Civil Engineering",
-  "Chemical Engineering",
-  "Data Science",
-  "Economics",
-  "Business Administration",
-  "Physics",
-  "Mathematics",
-  "Biotechnology",
+  "Computer Science and Engineering",
+  "Electronics and Communication Engineering",
+  "AI/ML",
+  "Mechanical",
+  "Civil",
 ];
 
 export const YEARS = [
